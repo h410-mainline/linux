@@ -562,6 +562,16 @@ config KEYBOARD_PMIC8XXX
 	  To compile this driver as a module, choose M here: the module will
 	  be called pmic8xxx-keypad.
 
+config KEYBOARD_PP2106
+	tristate "LG PP2106 keypad support"
+	select INPUT_MATRIXKMAP
+	help
+	  Say Y here if you want to use the keypad on your LG mobile
+	  device.
+
+	  To compile this driver as a module, choose M here: the
+	  module will be called pp2106-keypad.
+
 config KEYBOARD_SAMSUNG
 	tristate "Samsung keypad support"
 	depends on HAS_IOMEM && HAVE_CLK

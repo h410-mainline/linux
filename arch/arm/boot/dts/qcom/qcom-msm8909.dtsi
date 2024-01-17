@@ -50,7 +50,6 @@
 			#cooling-cells = <2>;
 			power-domains = <&rpmpd MSM8909_VDDCX_AO>;
 			power-domain-names = "perf";
-			operating-points-v2 = <&cpu_opp_table>;
 			cpu-idle-states = <&CPU_SLEEP_0>;
 			qcom,acc = <&cpu0_acc>;
 			qcom,saw = <&cpu0_saw>;
@@ -66,7 +65,6 @@
 			#cooling-cells = <2>;
 			power-domains = <&rpmpd MSM8909_VDDCX_AO>;
 			power-domain-names = "perf";
-			operating-points-v2 = <&cpu_opp_table>;
 			cpu-idle-states = <&CPU_SLEEP_0>;
 			qcom,acc = <&cpu1_acc>;
 			qcom,saw = <&cpu1_saw>;
@@ -82,7 +80,6 @@
 			#cooling-cells = <2>;
 			power-domains = <&rpmpd MSM8909_VDDCX_AO>;
 			power-domain-names = "perf";
-			operating-points-v2 = <&cpu_opp_table>;
 			cpu-idle-states = <&CPU_SLEEP_0>;
 			qcom,acc = <&cpu2_acc>;
 			qcom,saw = <&cpu2_saw>;
@@ -98,7 +95,6 @@
 			#cooling-cells = <2>;
 			power-domains = <&rpmpd MSM8909_VDDCX_AO>;
 			power-domain-names = "perf";
-			operating-points-v2 = <&cpu_opp_table>;
 			cpu-idle-states = <&CPU_SLEEP_0>;
 			qcom,acc = <&cpu3_acc>;
 			qcom,saw = <&cpu3_saw>;
